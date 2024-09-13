@@ -46,5 +46,16 @@ let detailsOfStudent = {
 console.log(detailsOfStudent);
 
 //_______________ARRAY_____________
-let Data = [10, 52, 1, 96, 36, 1, 0];
+let Data = [
+  10,
+  52,
+  {
+    assets: ["bat", "ball", "stumps"],
+  },
+  96,
+  36,
+  1,
+  0,
+];
+// console.log(Data);
 console.log(Data);
