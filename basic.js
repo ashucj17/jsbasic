@@ -46,6 +46,11 @@ let detailsOfStudent = {
 console.log(detailsOfStudent);
 
 //_______________ARRAY_____________
+
+let arr = [10, 52, 3, 12, 41];
+console.log(arr);
+
+//______________Nested array and objects____________
 let Data = [
   10,
   52,
