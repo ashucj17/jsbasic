@@ -63,4 +63,4 @@ let Data = [
   0,
 ];
 // console.log(Data);
-console.log(Data);
+console.log(typeof Data);
