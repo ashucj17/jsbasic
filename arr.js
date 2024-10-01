@@ -35,7 +35,17 @@ let shape = ["circle", "sqyare", "rectangle", "triangle", "pantagon"];
 let combineArray = color.concat(shape);
 console.log(combineArray);
 
-//____________________shorting an array________
+//____________________shorting an array________//
 console.log(color.sort());
-//__________reversing an array___________
+//__________reversing an array___________//
 console.log(color.reverse());
+//___________indexof______________//
+console.log(color);
+let indexofGrey = color.indexOf("grey");
+console.log(indexofGrey);
+//___________adding element using splice at specific locaton__________
+console.log(combineArray);
+combineArray.splice(6, 0, "quadilateral");
+console.log(combineArray);
+color.splice(1, 0, "purple");
+console.log(color);
