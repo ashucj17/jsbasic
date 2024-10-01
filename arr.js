@@ -49,3 +49,5 @@ combineArray.splice(6, 0, "quadilateral");
 console.log(combineArray);
 color.splice(1, 0, "purple");
 console.log(color);
+
+//_________________nested array_________________
