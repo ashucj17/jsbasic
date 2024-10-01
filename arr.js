@@ -26,6 +26,16 @@ console.log(color.length);
 //________index of the element____________//
 console.log(color[4]);
 
-//___________
+//___________array contains the specific element_____________//
 let containsGreen = color.includes("green");
 console.log(containsGreen);
+
+//_________________combine two array___________//
+let shape = ["circle", "sqyare", "rectangle", "triangle", "pantagon"];
+let combineArray = color.concat(shape);
+console.log(combineArray);
+
+//____________________shorting an array________
+console.log(color.sort());
+//__________reversing an array___________
+console.log(color.reverse());
