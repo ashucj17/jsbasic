@@ -65,3 +65,10 @@ let user = [
   { name: "aman", age: 27, email: "aman@gmail.com" },
 ];
 console.log(user);
+
+//____________Math function with rendom and floor____________
+// let rendom = Math.random();
+// console.log(rendom);
+
+let random = Math.floor(Math.random() * user.length);
+console.log(user[random].name);
