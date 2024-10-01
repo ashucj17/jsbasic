@@ -50,4 +50,18 @@ console.log(combineArray);
 color.splice(1, 0, "purple");
 console.log(color);
 
-//_________________nested array_________________
+//_________________object of array_________________
+let user = [
+  { name: "ashish", age: 30, email: "ashu@gmail.com" },
+  { name: "anil", age: 31, email: "anil@gmail.com" },
+  { name: "neha", age: 14, email: "neha@gmail.com" },
+  { name: "suchi", age: 15, email: "suchi@gmail.com" },
+  { name: "varun", age: 17, email: "varun@gmail.com" },
+  { name: "tarun", age: 21, email: "tarun@gmail.com" },
+  { name: "harsh", age: 25, email: "harsh@gmail.com" },
+  { name: "sagar", age: 22, email: "sagar@gmail.com" },
+  { name: "rachit", age: 31, email: "rachit@gmail.com" },
+  { name: "radha", age: 23, email: "radha@gmail.com" },
+  { name: "aman", age: 27, email: "aman@gmail.com" },
+];
+console.log(user);
