@@ -86,4 +86,52 @@
 // console.log(firstNum / secondNum);
 // console.log(firstNum % secondNum);
 // console.log(firstNum ** firstNum);
+
 // falsy value = "", '', ``, 0,-0, null, false, undefine.
+
+// let isJsProgramingLanguage = true;
+// let isHard = false;
+// let favNumb = 17;
+// console.log(isJsProgramingLanguage);
+// console.log(isHard);
+// console.log(favNumb + undefined);
+
+// let firstFavNumb = 10;
+// let secondFavNumb = 7;
+// console.log(firstFavNumb > secondFavNumb);
+// console.log(firstFavNumb < secondFavNumb);
+// console.log(firstFavNumb >= secondFavNumb);
+// console.log(firstFavNumb <= secondFavNumb);
+// console.log(firstFavNumb === secondFavNumb);
+// console.log(firstFavNumb == secondFavNumb);
+// console.log(firstFavNumb == !secondFavNumb);
+// console.log(firstFavNumb === !secondFavNumb);
+
+// let favActorFirstName = "Pankaj";
+// let favActorLastName = "Tripathi";
+// let fullName = favActorFirstName + " " + favActorLastName;
+// console.log(fullName.toUpperCase());
+// let message = `My favorite Actor is ${fullName.toUpperCase()}`;
+// message += `his best movie is gangs of vasepur`;
+// console.log(message);
+
+// type conversion
+// string to number
+// let amount = "50.64";
+// amount = parseInt(amount);/* using parseInt method */
+// amount = +amount; /* direct method */
+// console.log(amount);
+// amount = Number(amount); /* using constructor */
+// console.log(typeof amount);
+
+//  number to string
+// let money = 50;
+// money = money.toString();
+// console.log(money);
+// console.log(typeof money);
+
+// string to decimal
+// let money = "50.67";
+// money = parseFloat(money);
+// console.log(money);
+// console.log(typeof money);
