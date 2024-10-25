@@ -94,7 +94,22 @@
 // let newUsername = { name: "dheeraj", hobby: "Cricket" };
 // console.log(newUsername);
 //
-let hero = "shaktiman";
-console.log(`${hero} is my a superhero`);
-let newHero = new String("heman");
-console.log(newHero.toUpperCase());
+// let hero = "shaktiman";
+// console.log(`${hero} is my a superhero`);
+// let newHero = new String("heman");
+// console.log(newHero.toUpperCase());
+
+/* Numbers */
+let num = 74185;
+console.log(num);
+
+let number = new Number(1010);
+console.log(number);
+
+let balance = new Number(129.87);
+console.log(balance);
+console.log(balance.toFixed(1));
+console.log(balance.toPrecision(4));
+
+let newBalance = 10000000;
+console.log(newBalance.toLocaleString("en-IN"));
