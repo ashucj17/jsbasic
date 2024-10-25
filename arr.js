@@ -135,3 +135,17 @@
 // money = parseFloat(money);
 // console.log(money);
 // console.log(typeof money);
+
+/* Date */
+
+// let myDate = new Date();
+// console.log(myDate);
+// console.log(myDate.getFullYear());
+// console.log(myDate.getMonth());
+// console.log(myDate.toDateString());
+
+let newDate = new Date("2024-01-25");
+// console.log(newDate);
+
+let createdDate = new Date(2022, 9, 25);
+console.log(createdDate);

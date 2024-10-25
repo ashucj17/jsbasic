@@ -126,6 +126,6 @@
 // console.log(Math.random() * 10);
 // console.log(Math.random() * 10 + 1);
 
-let max = 7;
-let min = 1;
-console.log(Math.round(Math.random() * (max - min)));
+// let max = 7;
+// let min = 1;
+// console.log(Math.round(Math.random() * (max - min)));
