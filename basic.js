@@ -100,16 +100,32 @@
 // console.log(newHero.toUpperCase());
 
 /* Numbers */
-let num = 74185;
-console.log(num);
+// let num = 74185;
+// console.log(num);
 
-let number = new Number(1010);
-console.log(number);
+// let number = new Number(1010);
+// console.log(number);
 
-let balance = new Number(129.87);
-console.log(balance);
-console.log(balance.toFixed(1));
-console.log(balance.toPrecision(4));
+// let balance = new Number(129.87);
+// console.log(balance);
+// console.log(balance.toFixed(1));
+// console.log(balance.toPrecision(4));
 
-let newBalance = 10000000;
-console.log(newBalance.toLocaleString("en-IN"));
+// let newBalance = 10000000;
+// console.log(newBalance.toLocaleString("en-IN"));
+
+/* Maths */
+
+// console.log(Math.abs(-7));
+// console.log(Math.round(7.85));
+// console.log(Math.ceil(6.1));
+// console.log(Math.floor(9.9));
+// console.log(Math.min(8, 2, 3, 9, 5));
+// console.log(Math.max(8, 2, 3, 9, 5));
+
+// console.log(Math.random() * 10);
+// console.log(Math.random() * 10 + 1);
+
+let max = 7;
+let min = 1;
+console.log(Math.round(Math.random() * (max - min)));
